@@ -1,0 +1,66 @@
+<html>
+    <head>
+            <style>
+                    body{
+                            background-image: url('100.jpg');
+                            background-repeat: no-repeat;
+                    }
+            </style>
+
+    </head>
+    <body>
+            <h1>움직이는 사진</h1>
+            <img id="img1">
+
+            <script>
+                        setInterval(timer,50);
+                        let step=1;
+                        function timer()
+                        {
+                                    switch(step){
+                                                case 1:
+                                                            document.getElementById("img1").src="1.jpg";
+                                                            step=2;
+                                                break;
+                                                case 2:
+                                                            document.getElementById("img1").src="2.jpg";
+                                                            step=3;
+                                                case 3:
+                                                            document.getElementById("img1").src="3.jpg";
+                                                            step=4;
+                                                break;
+                                                case 4:
+                                                            document.getElementById("img1").src="4.jpg";
+                                                            step=5;
+                                                break;
+                                                case 5:
+                                                            document.getElementById("img1").src="5.jpg";
+                                                            step=6;
+                                                break;
+                                                case 6:
+                                                            document.getElementById("img1").src="6.jpg";
+                                                            step=7;
+                                                break;
+                                                case 7:
+                                                            document.getElementById("img1").src="7.jpg";
+                                                            step=8;
+                                                break;
+                                                case 8:
+                                                            document.getElementById("img1").src="8.jpg";
+                                                            step=9;
+                                                case 9:
+                                                            document.getElementById("img1").src="8.jpg";
+                                                            step=10;
+                                                break;
+                                                case 10:
+                                                            document.getElementById("img1").src="8.jpg";
+                                                            step=1;
+                                                
+                                                
+                                               
+                                                
+                                    }           
+                        }
+            </script>
+    </body>
+</html>
